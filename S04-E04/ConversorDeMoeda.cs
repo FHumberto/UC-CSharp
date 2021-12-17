@@ -1,8 +1,8 @@
 ﻿namespace S04_E04
 {
-    internal class ConversorDeMoeda
+    internal static class ConversorDeMoeda
     {
-        public static double Iof = 6.0;
+        public const double Iof = 6.0;
         public static double DolarParaReal(double quantia, double cotacao)
         {
             double total = quantia * cotacao;

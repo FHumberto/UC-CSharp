@@ -2,7 +2,7 @@
 
 namespace S04_E04
 {
-    internal class Index
+    internal static class Index
     {
         public static void Main()
         {
