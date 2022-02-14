@@ -1,8 +1,6 @@
-﻿using System;
-using System.Text;
+﻿using S09_E01.Entities.Enums;
 using System.Globalization;
-using System.Collections.Generic;
-using S09_E01.Entities.Enums;
+using System.Text;
 
 namespace S09_E01.Entities
 {
@@ -18,7 +16,7 @@ namespace S09_E01.Entities
 
         }
 
-        public Order(DateTime moment,OrderStatus status, Client client)
+        public Order(DateTime moment,OrderStatus status,Client client)
         {
             Moment = moment;
             Status = status;
