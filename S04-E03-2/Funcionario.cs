@@ -18,7 +18,7 @@ namespace S04_E03_2
         }
         public override string ToString()
         {
-            return Nome + ", R$ " + SalarioLiquido().ToString("F2", CultureInfo.InvariantCulture);
+            return Nome + ", R$ " + SalarioLiquido().ToString("F2",CultureInfo.InvariantCulture);
         }
     }
 }

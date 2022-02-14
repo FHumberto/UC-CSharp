@@ -19,13 +19,13 @@ namespace S05_E01
             saldo = value;
         }
 
-        public Conta(int id, string nome)
+        public Conta(int id,string nome)
         {
             Id = id;
             Nome = nome;
             SetSaldo(0);
         }
-        public Conta(int id, string nome, float saldo) : this(id, nome)
+        public Conta(int id,string nome,float saldo) : this(id,nome)
         {
             SetSaldo(saldo);
         }
@@ -41,7 +41,7 @@ namespace S05_E01
 
         public override string ToString()
         {
-            return "Conta " + Id + ", Titular: " + Nome + ", Saldo: $ " + GetSaldo().ToString("F2", CultureInfo.InvariantCulture);
+            return "Conta " + Id + ", Titular: " + Nome + ", Saldo: $ " + GetSaldo().ToString("F2",CultureInfo.InvariantCulture);
         }
     }
 }

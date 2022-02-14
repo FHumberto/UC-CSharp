@@ -12,15 +12,15 @@ namespace S04_E02
             Console.Write("Nome: ");
             a.Nome = Console.ReadLine();
             Console.Write("Salário: ");
-            a.Salario = float.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+            a.Salario = float.Parse(Console.ReadLine(),CultureInfo.InvariantCulture);
 
             Console.WriteLine("\nDados do segundo funcionário:");
             Console.Write("Nome: ");
             b.Nome = Console.ReadLine();
             Console.Write("Salário: ");
-            b.Salario = float.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+            b.Salario = float.Parse(Console.ReadLine(),CultureInfo.InvariantCulture);
 
-            Console.WriteLine("\nSalário médio = " + ((a.Salario + b.Salario) / 2.0).ToString("F2", CultureInfo.InvariantCulture));
+            Console.WriteLine("\nSalário médio = " + ((a.Salario + b.Salario) / 2.0).ToString("F2",CultureInfo.InvariantCulture));
         }
     }
 }

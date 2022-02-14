@@ -10,12 +10,12 @@ namespace S04_E03_2
             Console.Write("Nome: ");
             f.Nome = Console.ReadLine();
             Console.Write("Salário bruto: ");
-            f.SalarioBruto = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+            f.SalarioBruto = double.Parse(Console.ReadLine(),CultureInfo.InvariantCulture);
             Console.Write("Imposto: ");
-            f.Imposto = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+            f.Imposto = double.Parse(Console.ReadLine(),CultureInfo.InvariantCulture);
             Console.WriteLine("\nFuncionario: " + f);
             Console.Write("\nDigite a porcentagem para aumentar o salário: ");
-            double p = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+            double p = double.Parse(Console.ReadLine(),CultureInfo.InvariantCulture);
             f.AumentarSalario(p);
             Console.WriteLine("\nDados atualizados: " + f);
         }

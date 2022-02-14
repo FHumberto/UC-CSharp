@@ -9,7 +9,7 @@ namespace S06_E02
         public double Salary { get; set; }
 
 
-        public Employee(int id, string? name, double salary)
+        public Employee(int id,string? name,double salary)
         {
             this.Id = id;
             this.Name = name;
@@ -22,7 +22,7 @@ namespace S06_E02
         }
         public override string ToString()
         {
-            return Id + ", " + Name + ", " + Salary.ToString("F2", CultureInfo.InvariantCulture);
+            return Id + ", " + Name + ", " + Salary.ToString("F2",CultureInfo.InvariantCulture);
         }
     }
 }
