@@ -13,7 +13,6 @@ namespace S09_E01.Entities
 
         public Order()
         {
-
         }
 
         public Order(DateTime moment,OrderStatus status,Client client)

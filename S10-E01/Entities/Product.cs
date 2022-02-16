@@ -10,6 +10,7 @@ namespace S10_E01.Entities
         public Product()
         {
         }
+
         public Product(string? name,double price)
         {
             this.name = name;

@@ -25,6 +25,7 @@ namespace S05_E01
             Nome = nome;
             SetSaldo(0);
         }
+
         public Conta(int id,string nome,float saldo) : this(id,nome)
         {
             SetSaldo(saldo);
@@ -34,6 +35,7 @@ namespace S05_E01
         {
             SetSaldo(GetSaldo() + quantia);
         }
+
         public void Saque(double quantia)
         {
             SetSaldo(GetSaldo() - quantia - 5.0);

@@ -10,6 +10,7 @@
             Nome = nome;
             Email = email;
         }
+
         public override string ToString()
         {
             return Nome + ", " + Email;

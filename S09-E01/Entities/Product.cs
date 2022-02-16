@@ -7,7 +7,6 @@
 
         public Product()
         {
-
         }
 
         public Product(string? name,double price)
