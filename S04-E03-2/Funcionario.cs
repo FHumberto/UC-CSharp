@@ -12,10 +12,12 @@ namespace S04_E03_2
         {
             return SalarioBruto - Imposto;
         }
+
         public double AumentarSalario(double Porcentagem)
         {
             return SalarioBruto += SalarioBruto * Porcentagem / 100.0;
         }
+
         public override string ToString()
         {
             return Nome + ", R$ " + SalarioLiquido().ToString("F2",CultureInfo.InvariantCulture);

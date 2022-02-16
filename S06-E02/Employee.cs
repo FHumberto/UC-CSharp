@@ -8,7 +8,6 @@ namespace S06_E02
         public string? Name { get; set; }
         public double Salary { get; set; }
 
-
         public Employee(int id,string? name,double salary)
         {
             this.Id = id;
@@ -20,6 +19,7 @@ namespace S06_E02
         {
             Salary += (Salary * (percentage / 100));
         }
+
         public override string ToString()
         {
             return Id + ", " + Name + ", " + Salary.ToString("F2",CultureInfo.InvariantCulture);
